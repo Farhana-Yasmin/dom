@@ -1,0 +1,178 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body id="dom">
+    <header id="heading">
+        <h1>Welcom To Js Dom Test</h1>
+    </header>
+
+     <!-- section -->
+    <section id="main">
+        <!-- 1st div -->
+         <div class="div">
+            <h3 class="head">List of Books </h3>
+            <ul>
+                <li>book name 1</li>
+                <li>book name 2</li>
+                <li>book name 3</li>
+                <li>book name 4</li>
+                <li>book name 5</li>
+            </ul>
+         </div>
+            <!-- 2nd div -->
+            <div class="div">
+                <h3 class="head">List of Fruits </h3>
+                <ul>
+                    <li>Fruits name 1</li>
+                    <li>Fruits name 2</li>
+                    <li>Fruits name 3</li>
+                    <li>Fruits name 4</li>
+                    <li>Fruits name 5</li>
+                </ul>
+             </div>
+                <!-- 3rd div -->
+         <div class="div">
+            <h3 class="head">List of places </h3>
+            <ul>
+                <li>places  name 1</li>
+                <li>places  name 2</li>
+                <li>places  name 3</li>
+                <li>places  name 4</li>
+                <li>places  name 5</li>
+            </ul>
+         </div>
+            <!-- 4th div -->
+            <div class="div">
+                <h3 class="head">List of Movies </h3>
+                <ul>
+                    <li> Movies name 1</li>
+                    <li> Movies name 2</li>
+                    <li> Movies name 3</li>
+                    <li> Movies name 4</li>
+                    <li> Movies name 5</li>
+                </ul>
+             </div>
+                <!-- 5th div -->
+         <div class="div">
+            <h3 class="head">List of Sports</h3>
+            <ul>
+                <li>Sports name 1</li>
+                <li>Sports name 2</li>
+                <li>Sports name 3</li>
+                <li>Sports name 4</li>
+                <li>Sports name 5</li>
+            </ul>
+         </div>
+
+        
+    </section>
+
+
+    <script>
+      let dom = document.getElementById('dom')
+      dom.style.backgroundColor = 'bisque'
+
+     
+
+      let main= document.getElementById('main')
+        main.style.maxWidth='1040px'
+        main.style.alignItems='center'
+        main.style.justifyContent='center'
+        main.style.margin='auto'
+        main.style.display ='flex'
+        main.style.flexWrap='wrap'
+        
+
+
+        let heading = document.getElementById('heading')
+        heading.style.backgroundColor= 'red'
+        heading.style.color = 'white'
+        heading.style.textAlign= 'center'
+
+
+        let sectionDiv = document.getElementsByClassName('div')
+
+
+      
+        sectionDiv[0].style.backgroundColor = 'white'
+        sectionDiv[0].style.hight = '130px'
+        sectionDiv[0].style.width = '280px'
+        sectionDiv[0].style.borderRadius = '12px'
+        sectionDiv[0].style.margin = '20px'
+        sectionDiv[0].style.padding = '20px'
+        sectionDiv[0].style.border = '2px,solid,black'
+      
+
+
+        let head = document.getElementsByClassName('head')
+        head[0].style.color='red'
+        head[1].style.color='green'
+        head[2].style.color='orange'
+        head[3].style.color='blue'
+        head[4].style.color='gray'
+        
+
+        
+
+        
+        sectionDiv[1].style.backgroundColor= 'white'
+        sectionDiv[1].style.hight= '130px'
+        sectionDiv[1].style.width='250px'
+        sectionDiv[1].style.borderRadius = '12px'
+        sectionDiv[1].style.margin = '20px'
+        sectionDiv[1].style.padding = '20px'
+        sectionDiv[1].style.border = '2px,solid,black'
+
+        
+   
+        
+
+       
+        sectionDiv[2].style.backgroundColor= 'white'
+        sectionDiv[2].style.hight= '130px'
+        sectionDiv[2].style.width='250px'
+        sectionDiv[2].style.borderRadius = '12px'
+        sectionDiv[2].style.margin = '20px'
+        sectionDiv[2].style.padding = '20px'
+        sectionDiv[2].style.border = '2px,solid,black'
+
+
+
+           
+        sectionDiv[3].style.backgroundColor= 'white'
+        sectionDiv[3].style.hight= '130px'
+        sectionDiv[3].style.width='250px'
+        sectionDiv[3].style.borderRadius = '12px'
+        sectionDiv[3].style.margin = '20px'
+        sectionDiv[3].style.padding = '20px'
+        sectionDiv[3].style.border = '2px,solid,black'
+
+
+
+           
+        sectionDiv[4].style.backgroundColor= 'white'
+        sectionDiv[4].style.hight= '130px'
+        sectionDiv[4].style.width='250px'
+        sectionDiv[4].style.borderRadius = '12px'
+        sectionDiv[4].style.margin = '20px'
+        sectionDiv[4].style.padding = '20px'
+        sectionDiv[4].style.border = '2px,solid,black'
+
+
+
+
+
+       
+      
+
+
+
+    </script>
+
+    
+</body>
+</html>
